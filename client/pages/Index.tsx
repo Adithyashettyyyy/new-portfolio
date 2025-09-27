@@ -82,25 +82,25 @@ export default function Index() {
     {
       category: "Languages",
       icon: <Code2 className="h-4 w-4" />,
-      skills: ["Java", "C", "JavaScript", "Python", "SQL"],
+      skills: ["Python", "Java", "C", "SQL", "JavaScript"],
       color: "bg-blue-500/20 text-blue-300 border-blue-500/50",
     },
     {
       category: "Frameworks & Libraries",
       icon: <Globe className="h-4 w-4" />,
-      skills: ["React", "Node.js", "Express", "TensorFlow"],
+      skills: ["React", "Node.js", "pandas", "NumPy", "PySpark", "SQLAlchemy"],
       color: "bg-green-500/20 text-green-300 border-green-500/50",
     },
     {
       category: "Databases & Tools",
       icon: <Database className="h-4 w-4" />,
-      skills: ["MongoDB", "MySQL", "Snowflake", "Git", "Power BI"],
+      skills: ["MySQL", "PostgreSQL", "MongoDB", "Snowflake", "Git", "Airflow"],
       color: "bg-purple-500/20 text-purple-300 border-purple-500/50",
     },
     {
       category: "Technologies & Platforms",
       icon: <Zap className="h-4 w-4" />,
-      skills: ["Vercel", "EmailJS", "Excel", "HTML", "CSS"],
+      skills: ["Power BI", "Excel", "Postman", "Vercel", "HTML", "CSS"],
       color: "bg-orange-500/20 text-orange-300 border-orange-500/50",
     },
   ];
@@ -214,7 +214,7 @@ export default function Index() {
             {/* Right Side - Just Name */}
             <div className="order-1 lg:order-2 text-center lg:text-left flex flex-col justify-center min-h-[400px] lg:min-h-[500px]">
               <div className="text-base sm:text-lg md:text-xl text-primary font-medium mb-6 tracking-wider uppercase">
-                Computer Science Student & Developer
+                Data Engineer & Developer
               </div>
               <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold text-foreground mb-6 leading-tight">
                 MY NAME IS
@@ -233,13 +233,13 @@ export default function Index() {
                 variant="outline"
                 className="bg-blue-500/10 text-blue-300 border-blue-500/30 px-3 py-1"
               >
-                🎓 Final Year Student
+                🏢 Professional
               </Badge>
               <Badge
                 variant="outline"
                 className="bg-purple-500/10 text-purple-300 border-purple-500/30 px-3 py-1"
               >
-                💻 Full-Stack Developer
+                📊 Data Engineer
               </Badge>
               <Badge
                 variant="outline"
@@ -259,17 +259,15 @@ export default function Index() {
             <div className="space-y-4 max-w-4xl mx-auto">
               <p className="text-base sm:text-lg text-muted-foreground leading-relaxed">
                 <TypingAnimation
-                  text="Passionate Computer Science student at Canara Engineering College with 80.2% CGPA. Experienced in building scalable web applications, implementing machine learning solutions, and solving complex data problems."
+                  text="Experienced in building data pipelines, writing optimized SQL/Snowflake queries, and developing ETL workflows. Skilled in integrating multi-source datasets and delivering reliable, scalable data solutions that support analytics and business strategy."
                   speed={50}
                 />
               </p>
               <p className="text-sm sm:text-base text-muted-foreground/80">
-                Proven track record through internships at{" "}
-                <span className="text-primary font-semibold">PriceEasy AI</span>{" "}
-                and{" "}
-                <span className="text-primary font-semibold">
-                  Dregal I PVT.LTD
-                </span>
+                Currently working as{" "}
+                <span className="text-primary font-semibold">Pricing Strategy & Data Engineer</span>{" "}
+                at{" "}
+                <span className="text-primary font-semibold">PriceEasy AI</span>
                 . Based in{" "}
                 <span className="text-primary font-medium">
                   Darbe, Puttur, Karnataka
@@ -336,8 +334,8 @@ export default function Index() {
                 asChild
               >
                 <a
-                  href="/Adithya_Shetty_Resume.pdf"
-                  download="Adithya_Shetty_Resume.pdf"
+                  href="/Adithya_Resume.pdf"
+                  download="Adithya_Resume.pdf"
                 >
                   <span className="absolute inset-0 bg-gradient-to-r from-transparent via-primary/10 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-700 ease-in-out"></span>
                   <span className="relative z-10 flex items-center">

@@ -11,25 +11,25 @@ export default function AboutSection() {
     {
       category: "Languages",
       icon: <Code2 className="h-4 w-4" />,
-      skills: ["Java", "C", "JavaScript", "Python", "SQL"],
+      skills: ["Python", "Java", "C", "SQL", "JavaScript"],
       color: "bg-blue-500/20 text-blue-300 border-blue-500/50"
     },
     {
       category: "Frameworks & Libraries", 
       icon: <Globe className="h-4 w-4" />,
-      skills: ["React", "Node.js", "Express", "TensorFlow"],
+      skills: ["React", "Node.js", "pandas", "NumPy", "PySpark", "SQLAlchemy"],
       color: "bg-green-500/20 text-green-300 border-green-500/50"
     },
     {
       category: "Databases & Tools",
       icon: <Database className="h-4 w-4" />,
-      skills: ["MongoDB", "MySQL", "Snowflake", "Git", "Power BI"],
+      skills: ["MySQL", "PostgreSQL", "MongoDB", "Snowflake", "Git", "Airflow"],
       color: "bg-purple-500/20 text-purple-300 border-purple-500/50"
     },
     {
       category: "Technologies & Platforms",
       icon: <Zap className="h-4 w-4" />,
-      skills: ["Vercel", "EmailJS", "Excel", "HTML", "CSS"],
+      skills: ["Power BI", "Excel", "Postman", "Vercel", "HTML", "CSS"],
       color: "bg-orange-500/20 text-orange-300 border-orange-500/50"
     }
   ];
@@ -60,16 +60,16 @@ export default function AboutSection() {
             <div className="text-left">
               <h3 className="text-xl sm:text-2xl md:text-3xl font-semibold text-foreground mb-4 sm:mb-6">My Journey</h3>
               <p className="text-sm sm:text-base md:text-lg text-muted-foreground mb-4 sm:mb-6 leading-relaxed">
-                My journey into technology began with curiosity about how digital systems work. Currently pursuing my
-                <span className="text-primary font-semibold"> Bachelor of Engineering in Computer Science</span> at
-                <span className="text-primary font-semibold"> Canara Engineering College, Bantwal</span>, I've maintained
+                My journey into technology began with curiosity about how digital systems work. I hold a
+                <span className="text-primary font-semibold"> Bachelor of Engineering in Computer Science</span> from
+                <span className="text-primary font-semibold"> Canara Engineering College, Bantwal</span>, where I maintained
                 a strong academic record with <span className="text-primary font-semibold">80.2% CGPA</span>.
               </p>
               <p className="text-sm sm:text-base md:text-lg text-muted-foreground mb-4 sm:mb-6 leading-relaxed">
-                What sets me apart is my hands-on approach to learning. Through internships at
-                <span className="text-primary font-semibold"> PriceEasy AI</span> as a Product Analyst and
-                <span className="text-primary font-semibold"> Dregal I PVT.LTD</span> as a Software Developer,
-                I've gained real-world experience in data analysis, machine learning, and full-stack development.
+                What sets me apart is my hands-on approach to data engineering. Currently working as a
+                <span className="text-primary font-semibold"> Pricing Strategy & Data Engineer</span> at
+                <span className="text-primary font-semibold"> PriceEasy AI</span>, I've built automated pipelines processing millions of records weekly,
+                optimized SQL queries reducing execution time by 30%, and designed ETL workflows in Snowflake.
               </p>
               <div className="flex items-center gap-2 text-sm sm:text-base md:text-lg text-muted-foreground">
                 <MapPin className="h-4 w-4 sm:h-5 sm:w-5 text-primary" />
@@ -81,12 +81,12 @@ export default function AboutSection() {
               {/* Achievement Cards */}
               <div className="bg-gradient-to-r from-blue-500/10 to-purple-500/10 backdrop-blur-sm rounded-lg p-4 sm:p-6 border border-blue-500/20">
                 <h4 className="text-lg font-semibold text-blue-300 mb-2">🎓 Academic Excellence</h4>
-                <p className="text-sm text-muted-foreground">Maintaining 80.2% CGPA in Computer Science Engineering with focus on AI, Machine Learning, and Software Development</p>
+                <p className="text-sm text-muted-foreground">Completed Bachelor of Engineering in Computer Science with 80.2% CGPA, specializing in AI, Machine Learning, and Data Engineering</p>
               </div>
 
               <div className="bg-gradient-to-r from-green-500/10 to-emerald-500/10 backdrop-blur-sm rounded-lg p-4 sm:p-6 border border-green-500/20">
                 <h4 className="text-lg font-semibold text-green-300 mb-2">💼 Professional Experience</h4>
-                <p className="text-sm text-muted-foreground">2 successful internships in product analysis and software development, working with real-world datasets and production systems</p>
+                <p className="text-sm text-muted-foreground">Currently working as Pricing Strategy & Data Engineer at PriceEasy AI, with experience in building data pipelines and ETL workflows</p>
               </div>
 
               <div className="bg-gradient-to-r from-orange-500/10 to-red-500/10 backdrop-blur-sm rounded-lg p-4 sm:p-6 border border-orange-500/20">
