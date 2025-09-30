@@ -25,7 +25,7 @@ export default function ExperienceSection() {
             experienceVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
           }`}
         >
-          {/* Pricing Strategy & Data Engineer */}
+          {/* Pricing Strategy - Data Engineer */}
           <div className="flex gap-4 sm:gap-6 md:gap-8 group hover:bg-card/40 backdrop-blur-sm rounded-lg p-4 border border-border/30 hover:border-primary/40 transition-all duration-300 hover:shadow-lg">
             <div className="flex-shrink-0">
               <div className="w-10 h-10 sm:w-12 sm:h-12 bg-primary/10 rounded-lg flex items-center justify-center group-hover:bg-primary/20 transition-colors duration-300">
@@ -36,10 +36,10 @@ export default function ExperienceSection() {
             </div>
             <div className="flex-1 min-w-0">
               <h3 className="text-lg sm:text-xl md:text-2xl font-semibold text-foreground mb-1 sm:mb-2 group-hover:text-primary transition-colors duration-300">
-                Pricing Strategy & Data Engineer
+                Pricing Strategy - Data Engineer
               </h3>
               <p className="text-sm sm:text-base md:text-lg text-primary mb-2 sm:mb-3 font-medium">
-                PriceEasy AI | Feb 2025 – Present
+                PriceEasy AI | 2025 – Present
               </p>
               <p className="text-xs sm:text-sm md:text-base text-muted-foreground leading-relaxed">
                 Built and automated pipelines processing fuel price data from multiple sources, handling millions of records weekly. 
@@ -48,7 +48,7 @@ export default function ExperienceSection() {
               </p>
             </div>
           </div>
-
+          
           {/* Product Analyst Intern */}
           <div className="flex gap-4 sm:gap-6 md:gap-8 group hover:bg-card/40 backdrop-blur-sm rounded-lg p-4 border border-border/30 hover:border-primary/40 transition-all duration-300 hover:shadow-lg">
             <div className="flex-shrink-0">

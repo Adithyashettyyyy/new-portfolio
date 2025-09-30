@@ -214,7 +214,7 @@ export default function Index() {
             {/* Right Side - Just Name */}
             <div className="order-1 lg:order-2 text-center lg:text-left flex flex-col justify-center min-h-[400px] lg:min-h-[500px]">
               <div className="text-base sm:text-lg md:text-xl text-primary font-medium mb-6 tracking-wider uppercase">
-                Data Engineer & Developer
+                Data Engineer
               </div>
               <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold text-foreground mb-6 leading-tight">
                 MY NAME IS
@@ -265,12 +265,12 @@ export default function Index() {
               </p>
               <p className="text-sm sm:text-base text-muted-foreground/80">
                 Currently working as{" "}
-                <span className="text-primary font-semibold">Pricing Strategy & Data Engineer</span>{" "}
+                <span className="text-primary font-semibold">Pricing Strategy - Data Engineer</span>{" "}
                 at{" "}
                 <span className="text-primary font-semibold">PriceEasy AI</span>
                 . Based in{" "}
                 <span className="text-primary font-medium">
-                  Darbe, Puttur, Karnataka
+                  Bengaluru, Karnataka
                 </span>
                 .
               </p>

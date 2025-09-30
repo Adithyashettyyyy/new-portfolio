@@ -67,13 +67,13 @@ export default function AboutSection() {
               </p>
               <p className="text-sm sm:text-base md:text-lg text-muted-foreground mb-4 sm:mb-6 leading-relaxed">
                 What sets me apart is my hands-on approach to data engineering. Currently working as a
-                <span className="text-primary font-semibold"> Pricing Strategy & Data Engineer</span> at
+                <span className="text-primary font-semibold"> Pricing Strategy - Data Engineer</span> at
                 <span className="text-primary font-semibold"> PriceEasy AI</span>, I've built automated pipelines processing millions of records weekly,
                 optimized SQL queries reducing execution time by 30%, and designed ETL workflows in Snowflake.
               </p>
               <div className="flex items-center gap-2 text-sm sm:text-base md:text-lg text-muted-foreground">
                 <MapPin className="h-4 w-4 sm:h-5 sm:w-5 text-primary" />
-                <span>Based in <span className="text-primary font-medium">Darbe, Puttur, Karnataka</span></span>
+                <span>Based in <span className="text-primary font-medium">Bengaluru, Karnataka</span></span>
               </div>
             </div>
 
